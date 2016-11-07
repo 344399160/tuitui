@@ -1,0 +1,47 @@
+/*subnav部分*/
+.subnav{width:100%;background-color:#fff;}
+.subnav1{height:40px;}
+.subnav1 li{padding:0 10px;height:40px;line-height: 40px;text-align:center;font-size:15px;float:left;}
+.sbnv1 a{color: #ff464e;}
+/*goods*/
+.goods #new{display:inline-block;margin-bottom: 20px;}
+.newd1{background:url(../images/all.png) -335px -43px;}/*今日推荐*/
+.newd2{background:url(../images/all.png) -254px -43px;}/*今日上新*/
+.good1_one .goods-a{width:287px;background-color: #fff;border:2px solid #e8e8e8;position:relative;}
+.good1_one .goods-a:hover,.good1_one .goods-a:active{border-color:#ff464e;}
+.goods-a img{width:287px;height:287px;}
+.title{height:30px;line-height:34px;font-size:14px;color:#707070;position: relative;}
+.title i{width:18px;height:18px;background:url(../images/all.png);position: absolute;top:9px;left:8px;}
+.title p{padding-left: 28px;}
+i.tit0{background-position: -507px -152px;top:8px;}/*淘宝*/
+i.tit1{background-position: -505px -119px;}/*天猫*/
+.coupon{height:30px;line-height:30px;font-size:14px;color:#b5b5b6;padding-left: 10px;}
+.gd_wd{color:#dc0a0a;}/*深红色*/
+.gd_wd1{color:#FF4400;}/*淘宝色*/
+.gd_wd2{color: #ff464e;}/*主色调*/
+.goods1 .mg,.goods2 .mg{height:100%;margin:-15px -6px;}
+.goods1 .good1_one,.goods2 .good1_one{margin:15px 6px;}
+.commission{height:25px;}
+.commission .com1{font-size: 16px;padding:6px 10px;}
+.commission .com2{width:30px;height:14px;line-height:14px;font-size: 12px;color:#fff;background:#9fd78b;text-align: center;margin:11px 3px;}
+.commission .com3{font-size:13px;color:#313131;padding:8px 8px;}
+.commission .com4{font-size:12px;color:#b5b5b6;padding:8px 10px;}
+.good_btm{margin-top:15px;height:55px;padding-left:5px;background-color: #ff464e;}
+.good_btm li{height:55px;color:#fff;}
+.btm1{line-height:55px;font-size: 16px;margin-left:5px;}
+.value{line-height:55px;font-size: 28px;}
+.btm2{line-height:60px;font-size: 16px;text-decoration:line-through;color:#fff;margin:0 10px;}
+.btm3{line-height:55px;font-size:16px;margin:0 5px;}
+.btm3 a{color:#fff;}
+/*目录部分*/
+.pagination{margin:40px auto 0 auto;border-radius:26px; -webkit-border-radius:26px;-moz-border-radius:26px;background:#fff;font-size:16px;text-align: center;color: #777;box-shadow: 0 2px 2px #e3e3e3;display:table; }
+.pagination li{float:left;cursor:pointer;}
+.pagination li a,.pagination li span{position: relative;float: left;padding: 15px 24px;background-color: #fff;border: 1px solid #e3e3e3;margin-left: -1px;color: #777;}
+.pagination li a:hover{background: #ff464e;color:#fff;}
+.pagination li:first-child a, .pagination li:first-child span {margin-left: 0;border-radius:26px 0 0 26px;-webkit-border-radius:26px 0 0 26px;-moz-border-radius:26px 0 0 26px;}
+.pagination li:last-child a, .pagination li:last-child span {border-radius:0 26px 26px 0;-webkit-border-radius:0 26px 26px 0;-moz-border-radius:0 26px 26px 0;}
+.pagination .active a, .pagination .active a:hover,.pagination .active a:focus,.pagination .active span, .pagination .active span:hover, .pagination .active span:focus{background: #ff464e;color:#fff;} 
+.pagination .disabled span, .pagination .disabled span:hover,.pagination .disabled span:focus,.pagination .disabled a, .pagination .disabled a:hover,.pagination .disabled a:focus {color: #777;background-color: #fff;border-color:#e3e3e3;cursor: not-allowed;}
+
+/*更多领券秒杀*/
+.goods-ft{width:1196px;height:45px;color:#707070;font-size:18px;line-height: 45px;text-align: center;border:2px solid #d3d3d3;margin:30px auto;}
