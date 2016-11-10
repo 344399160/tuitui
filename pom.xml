@@ -51,6 +51,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<!--spring boot end-->
 
 		<!--JDBC 连接 start-->
@@ -154,6 +158,18 @@
 			<groupId>redis.clients</groupId>
 			<artifactId>jedis</artifactId>
 			<version>2.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>taobao.sdk.auto</groupId>
+			<artifactId>taobao-sdk-java-auto</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>taobao.sdk.source</groupId>
+			<artifactId>taobao-sdk-java-auto-source</artifactId>
+			<version>1.1.1</version>
 		</dependency>
 
 	</dependencies>
