@@ -7,5 +7,11 @@ import com.taobao.api.ApiException;
  */
 public interface GoodsService {
 
-    public void getGoods() throws ApiException;
+    public String getGoods() throws ApiException;
+
+    public String tbkUatmFavorites();
+
+    public String favorites();
+
+    public String tqg() throws Exception;
 }
